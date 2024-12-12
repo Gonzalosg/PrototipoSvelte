@@ -1,47 +1,36 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+  import Header from './lib/Header/Header.svelte';
+  import Slider from './lib/Slider/Slider.svelte';
+  import Sidebar from './lib/Sidebar/Sidebar.svelte';
+  import Content from './lib/Content/Content.svelte';
+  import Footer from './lib/Footer/Footer.svelte';
 </script>
 
 <main>
-  <div>
-    <a href="https://vite.dev" target="_blank" rel="noreferrer">
-      <img src={viteLogo} class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank" rel="noreferrer">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
+  <Header />
+  <Slider />
+  <div class="main-body">
+    <Sidebar />
+    <Content />
   </div>
-  <h1>Vite + Svelte</h1>
-
-  <div class="card">
-    <Counter />
-  </div>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
+  <Footer />
 </main>
 
 <style>
-  .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-    transition: filter 300ms;
+  *{
+    margin: 0;
+    padding: 0;
   }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
+  main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 5px solid black
   }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  }
-  .read-the-docs {
-    color: #888;
+
+  .main-body {
+    display: flex;
+    width: 100%;
+    border: 5px solid orange;
   }
 </style>
