@@ -1,13 +1,11 @@
-<script>
-  // Aquí puedes agregar lógica si es necesario, como navegación activa.
-</script>
+
 
 <aside>
-  <a href="#">Submenu 1</a>
-  <a href="#">Submenu 2</a>
-  <a href="#">Submenu 3</a>
-  <a href="#">Submenu 4</a>
-  <a href="#">Submenu 5</a>
+  <a>Submenu 1</a>
+  <a>Submenu 2</a>
+  <a>Submenu 3</a>
+  <a>Submenu 4</a>
+  <a>Submenu 5</a>
 </aside>
 
 <style>

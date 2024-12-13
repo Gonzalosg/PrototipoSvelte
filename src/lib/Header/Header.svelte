@@ -1,6 +1,4 @@
-<script>
-  // No es necesario agregar lógica si solo contiene botones.
-</script>
+
 
 <header>
   <button>Sign in</button>

@@ -4,10 +4,14 @@
   import Sidebar from './lib/Sidebar/Sidebar.svelte';
   import Content from './lib/Content/Content.svelte';
   import Footer from './lib/Footer/Footer.svelte';
+  import Navbar from './lib/Nav/Nav.svelte';
+  
+ 
 </script>
 
 <main>
   <Header />
+  <Navbar/>
   <Slider />
   <div class="main-body">
     <Sidebar />

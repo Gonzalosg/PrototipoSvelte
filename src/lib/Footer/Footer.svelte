@@ -1,6 +1,4 @@
-<script>
-  // Lógica para el footer si es necesario.
-</script>
+
 
 <footer>
   Footer
