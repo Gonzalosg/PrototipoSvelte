@@ -6,7 +6,7 @@
 
 <style>
   .banner {
-    width: 90%;
+    width: 95%;
     height: 150px; 
     background-color: #ddd;
     margin: 20px auto;

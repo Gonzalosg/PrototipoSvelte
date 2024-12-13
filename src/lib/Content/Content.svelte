@@ -39,13 +39,14 @@
 
 <style>
   .content {
+    width: 80%;
     flex: 1;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     padding: 10px;
     justify-content: space-between;
-    border: 5px solid red;
+  
   }
 
   .item {

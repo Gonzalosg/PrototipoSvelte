@@ -34,7 +34,7 @@
 
   .main-body {
     display: flex;
-    width: 100%;
-    border: 5px solid orange;
+    width: 95%;
+   
   }
 </style>

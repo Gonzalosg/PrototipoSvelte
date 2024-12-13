@@ -11,7 +11,8 @@
 <style>
   aside {
     width: 10%;
-    background-color: #f4f4f4;
+    height: 40%;
+    background-color:#DDDDDD;
     padding: 10px;
     display: flex;
     flex-direction: column;
